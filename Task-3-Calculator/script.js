@@ -19,7 +19,7 @@ function calculate(){
   }
 }
 
-// Keyboard support (this is your differentiator)
+// Keyboard support
 document.addEventListener("keydown", function(e){
   if ((e.key >= '0' && e.key <= '9') || "+-*/.".includes(e.key)) {
     press(e.key);
